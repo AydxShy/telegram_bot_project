@@ -2,8 +2,8 @@ from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final = "7949245095:AAHJkRVJRfsj3zBdjAmBR2Aemiw8xz5f4UU" 
-BOT_USERNAME: Final = "@hotasinne_bot"
+TOKEN: Final = "Your token" 
+BOT_USERNAME: Final = "Your Bot name"
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):   
     await update.message.reply_text("Hello! I'm your helpful bot! Type /help to learn more.")
